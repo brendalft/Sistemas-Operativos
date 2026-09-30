@@ -6,7 +6,6 @@ llamada al sistema “pstree –c” (2 puntos)*/
 
 
 #include<unistd.h>
-#include<stdio.h>
 #include<stdlib.h>
 
 
