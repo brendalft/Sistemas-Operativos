@@ -15,8 +15,6 @@ int main( int argc, char *argv[]){
     int j, i;
     pid_t pid;
 
-
-
     x=atoi(argv[1]);
     y=atoi(argv[2]);
 
