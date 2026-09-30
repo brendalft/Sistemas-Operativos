@@ -43,7 +43,7 @@ void ejecutar_pstree(int numero){
 }
 
 
-//se ejecuta cuando Zcibe SIGALRM
+//se ejecuta cuando Z recibe SIGALRM
 void ejecutar_alarma(int numero){
 
     kill(pid_abueloA, SIGUSR1); //Z envía SIGUSR1 a A
