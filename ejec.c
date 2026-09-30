@@ -14,9 +14,6 @@ con los segundos indicados por el argumento. Se deberá controlar la correcta de
 #include<signal.h>
 #include<sys/wait.h> 
 
-
-
-
 pid_t pid_abueloA; //pid de A, lo necesita Z
 
 
