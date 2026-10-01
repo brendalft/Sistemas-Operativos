@@ -159,13 +159,6 @@ int main(int argc, char *argv[]){
     printf("Soy ejec (%d) y muero\n", pid_ejec);
     exit(0);
 
-
-
-
-
-
-
-
 }
 
 
