@@ -26,7 +26,7 @@ void ejecutar_pstree(int numero){
 
     if(pid_hijoA==0){// es un hijo
 
-        execlp("pstree","pstree", NULL); //el hijp ejecuta el comando pstree
+        execlp("pstree","pstree", NULL); //el hijo ejecuta el comando pstree
 
         perror("Error al ejecutar pstree");//si execlp falla, muestra el error
 
