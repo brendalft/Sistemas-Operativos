@@ -45,8 +45,6 @@ void ejecutar_alarma(int numero){
 int main(int argc, char *argv[]){
 
     pid_t pid, pid_ejec, pid_A, pid_B, pid_X, pid_Y, pid_Z;
-    int estado;
-    int resultado;
     int segundos;
 
     segundos= atoi(argv[1]); //convertimos el argumento a un entero
@@ -144,11 +142,10 @@ int main(int argc, char *argv[]){
 
         }
 
-        //A espera a que B termine
-        do{
-            resultado=wait(&estado);
-        }while(resultado==-1);  //cuando el resulatdo sea 0, B murió
-
+        //A espera a que terminen sus dos hijos para morir: B y el que ejecuta pstree
+        wait(NULL)
+        wait(NULL) 
+            
         printf("Soy A (%d) y muero\n", pid_A);
 
         exit(0);
