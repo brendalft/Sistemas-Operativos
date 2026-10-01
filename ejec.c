@@ -31,12 +31,7 @@ void ejecutar_pstree(int numero){
         perror("Error al ejecutar pstree");//si execlp falla, muestra el error
 
         exit(1); // el hijo de A termina con error
-
-
-
     }
-
-
 }
 
 
