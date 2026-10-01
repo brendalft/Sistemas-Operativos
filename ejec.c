@@ -143,8 +143,8 @@ int main(int argc, char *argv[]){
         }
 
         //A espera a que terminen sus dos hijos para morir: B y el que ejecuta pstree
-        wait(NULL)
-        wait(NULL) 
+        wait(NULL);
+        wait(NULL);
             
         printf("Soy A (%d) y muero\n", pid_A);
 
