@@ -149,9 +149,6 @@ int main(int argc, char *argv[]){
         printf("Soy A (%d) y muero\n", pid_A);
 
         exit(0);
-
-
-
     }
 
     wait(NULL); //ejec espera a que termine A
