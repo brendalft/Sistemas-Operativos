@@ -24,7 +24,7 @@ hijos se lanzan secuencial o concurrentemente.*/
 #include<stdlib.h>
 #include<stdio.h>
 #include<unistd.h>
-#include<fcntl.h> //open() y O_RDONLY
+#include<fcntl.h> 
 #include<sys/stat.h>//stat
 #include<sys/wait.h>
 
